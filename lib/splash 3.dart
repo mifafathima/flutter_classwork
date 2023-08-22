@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_classwork/Registration%20Page.dart';
 import 'package:flutter_classwork/stateful%20loginpage.dart';
 
 import 'Loginpage.dart';
@@ -15,17 +16,17 @@ void main(){
   ));
 }
 
-class Splash3 extends StatefulWidget{   //
+class Splash3 extends StatefulWidget{   //splash3 is initially immutable and we change the state
   @override
-  State<Splash3> createState() => Splash3State();
+  State<Splash3> createState() => Splash3State();   //createState() will create a mutable state for splash3
 
 }
 
 class Splash3State extends State<Splash3>{
   @override
-  void initState() {
+  void initState() {   //what will happen when the app or page is first launched
     Timer( Duration(seconds: 2), () {
-      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>LoginPage2()));
+      Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context)=>RegistrationPage()));
     });
     super.initState();
   }
