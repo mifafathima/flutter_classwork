@@ -79,8 +79,7 @@ class MyWidget extends StatelessWidget {
                     fit: BoxFit.cover,
                     image:MyImage)),
           ),
-          Text(
-            name,
+          Text(name,
             style: GoogleFonts.playfairDisplay(fontSize: 20),
           ),
           Text(price),
