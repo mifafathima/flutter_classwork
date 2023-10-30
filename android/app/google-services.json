@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "437733634646",
+    "project_id": "fir-project-3abe8",
+    "storage_bucket": "fir-project-3abe8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437733634646:android:285a59c2c4474699bdc1f7",
+        "android_client_info": {
+          "package_name": "com.luminarwork.flutter_classwork"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9eAirjmsctohEN7aOLYPjA-bKIYWYpQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

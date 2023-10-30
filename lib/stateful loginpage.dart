@@ -72,7 +72,7 @@ class _LoginPage2State extends State<LoginPage2> {
                         borderRadius: BorderRadius.circular(50)
                       ),
                       prefixIcon: Icon(Icons.password_outlined),
-                      helperText: "Password must bhe atleast 8 characters",
+                      helperText: "Password must be at least 8 characters",
                       hintText: "Password",
                       labelText: "Password",
 
